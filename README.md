@@ -13,7 +13,7 @@ Open the Terminal
 3. Now we can look what it contains using "dir" for windows or "ls" for mac.
 
 
-//Getting the updated version of the respository and to be able to update it.
+#Getting the updated version of the respository and to be able to update it.
 These commands will only work when we are in the github repository
 
 4. "Git status" will show what is diffrent from your computer and github
