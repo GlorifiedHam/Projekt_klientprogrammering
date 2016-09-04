@@ -1,5 +1,6 @@
 # Projekt_klientprogrammering
 This is the project for the klientprogrammering course.
+The "" between command lines used in the quide is just to show that it is a command line. Dont use the "" inside the terminal. 
 
 #Getting started
 Open the Terminal
