@@ -3,6 +3,7 @@ This is the project for the klientprogrammering course.
 The "" between command lines used in the quide is just to show that it is a command line. Dont use the "" inside the terminal. 
 
 #Getting started
+An github account is needed.
 Open the Terminal
 Use the command: "git" to see all the commands.
 
