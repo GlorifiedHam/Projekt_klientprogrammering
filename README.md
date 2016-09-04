@@ -16,7 +16,7 @@ We only have to do this once
 
 # Getting the updated version of the respository and to be able to update it.
 Open the Terminal.
-These commands will only work when we are in the github repository.
+These commands will only work inside the github repository.
 
 4. "Git status" will show what is diffrent from your computer and github.
 
