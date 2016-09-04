@@ -8,9 +8,9 @@ We only have to do this once
 
 1. First we will add this repository to a selected place on your computer. We will do this by using the cd commands in the terminal to navigste to our wanted location for the respository. If you are using windows use: "dir" to show all the folders and files inside the selected directory, the command: "ls" will do the same for mac. Use the command: "cd.." to go up a directory, or navigate using:  "cd name of directory". When you are inside the directory where you want to put the respository use: "git clone https://github.com/GlorifiedHam/Projekt_klientprogrammering.git". This will make a copy of the respository on your computer.
 
-2. Use "cd Projekt_klientprogrammering" to move from the selected directory in to the newly made Projectklientprogrammering.
+2. Use "cd Projekt_klientprogrammering" to move from the selected directory in to the newly made Project_klientprogrammering.
 
-3. Now we can look what it contains using "dir" for windows or "ls" for mac.
+3. We can see what it contains using "dir" for windows or "ls" for mac.
 
 # Getting the updated version of the respository and to be able to update it.
 Open the Terminal.
