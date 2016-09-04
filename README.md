@@ -24,7 +24,7 @@ These commands will only work when we are in the github repository.
 
 7. "git"push" Pushes the changes to github.
 
-8. "git pull" Gices the latest updated version of the github repository.
+8. "git pull" Gives the latest updated version of the github repository.
 
 
 
