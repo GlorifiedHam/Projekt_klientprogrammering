@@ -21,7 +21,7 @@ These commands will only work when we are in the github repository.
 
 5. "git add Name of the file" will add the file/ changes into our commit que. We can also use "git add A" or "git add ." which will add every thing changed into our commit que. If we use "git status " after using a git add we will see that there is a change to be commited.
 
-6. "git commit -m"here we will add the message the quotes are needed!" " Now the changes are commited but only located in your machine. If you try to use git commit with out a message use: esc then ":wq". 
+6. "git commit -m" Here we will add a message, the quotes are needed! " " Now the changes are commited but only located in your machine. If you try to use git commit with out a message use: esc then ":wq". 
 
 7. "git"push" Pushes the changes to github.
 
