@@ -3,6 +3,7 @@ This is the project for the klientprogrammering course.
 
 #Getting started
 Open the Terminal
+Use the command: "git" to see all the commands.
 
 We only have to do this once
 
@@ -18,7 +19,7 @@ These commands will only work when we are in the github repository.
 
 4. "Git status" will show what is diffrent from your computer and github.
 
-5. "git add Name of the file"  will add the file/ changes into our git project. If we use "git status " after using a git add we will see that there is a change to be commited.
+5. "git add Name of the file" will add the file/ changes into our commit que. We can also use "git add A" or "git add ." which will add every thing changed into our commit que. If we use "git status " after using a git add we will see that there is a change to be commited.
 
 6. "git commit -m"here we will add the message the quotes are needed!" " Now the changes are commited but only located in your machine.
 
