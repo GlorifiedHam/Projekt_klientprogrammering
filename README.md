@@ -16,15 +16,15 @@ We only have to do this once
 Open the Terminal.
 These commands will only work when we are in the github repository.
 
-4. "Git status" will show what is diffrent from your computer and github
+4. "Git status" will show what is diffrent from your computer and github.
 
-5. "git add Name of the file"  will add the file/ changes into our git project. If we use "git status " after using a git add we will see that there is a change to be commited
+5. "git add Name of the file"  will add the file/ changes into our git project. If we use "git status " after using a git add we will see that there is a change to be commited.
 
 6. "git commit -m"here we will add the message the quotes are needed!" " Now the changes are commited but only located in your machine.
 
-7. "git"push" Will push the changes to github
+7. "git"push" Pushes the changes to github.
 
-8. "git pull" Will give the latest updated version of the github repository
+8. "git pull" Gices the latest updated version of the github repository.
 
 
 
