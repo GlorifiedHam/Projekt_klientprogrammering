@@ -9,9 +9,7 @@ Open the Terminal
 
 2.Use "cd Projekt_klientprogrammering" to move from the selected directory in to the newly made Projectklientprogrammering.
 
-
 3. Now we can look what it contains using "dir" for windows or "ls" for mac.
-
 
 # Getting the updated version of the respository and to be able to update it.
 Open the Terminal
