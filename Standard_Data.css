@@ -3,7 +3,14 @@ body{
 	background-color:#ffffff;
 }
 
-ul {
+
+h1, p{
+
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+ .nav ul {
     list-style-type: none;
    
     margin-top: -0.25em; 
@@ -13,18 +20,19 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 100%;
 }
 
-li {
+.nav li {
     float: left;
     border-right:1px solid #bbb;
 }
 
-li:last-child {
+.nav li:last-child {
     border-right: none;
 }
 
-li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -32,10 +40,36 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.nav li a:hover:not(.active) {
     background-color: #111;
 }
 
+
+
+
 .active {
     background-color: #4CAF50;
+}
+
+.vText{
+height: 50%;
+width: 100%;
+text-align:center;
+display: inline-block;
+margin-top: -0.25em;
+margin-right: 0.25em;
+margin-left:-0.25em;
+margin-bottom:none;
+padding-top: 0.5em;
+
+}
+
+.vText p{
+font-size: 150%;
+
+}
+
+.vText h1{
+
+    font-size:250%;
 }
