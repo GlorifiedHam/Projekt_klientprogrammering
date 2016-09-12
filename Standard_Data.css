@@ -5,7 +5,11 @@ body{
 
 ul {
     list-style-type: none;
-    margin: 0; 
+   
+    margin-top: -0.25em; 
+    margin-left: -0.25em;
+    margin-right: 0.125em;
+    margin-bottom: 0.125em;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -24,7 +28,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.85em 1em;
     text-decoration: none;
 }
 
