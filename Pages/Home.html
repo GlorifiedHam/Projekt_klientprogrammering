@@ -1,44 +1,58 @@
 <!doctype html>
+<!--
+den här html filen är startfilen eller hem html filen för hemsidan som vi utgår ifrån.
+//-->
+
 <html>
+	<head>
+		<Title>
+		Projekt_klientprogrammering-Home
+		</Title>
+		
+		<meta charset="UTF-8" />
+		<!--
+			css inladning med en version för dator, en för mobil och en standard.
+			standarden är en som ska vara samma på alla delar av sidan
+			sedan en för den delen som tilhör just den delen av hemsidan med en mobil
+			och en för enheter med mus och tangentbord
+		//-->
+		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
+		<link rel="stylesheet" type="text/css" href="Stylesheets\Home_Data.css">
+	</head>
 
-<head>
+	<body>
+	
+		<!--
+		navigerings meny att hoppa mellan olika delar av hemsidan
+		//-->
+		<div class="nav">
+			<ul>
 
-<title>
-Projekt_klientprogrammering
-</title>
-<meta charset="UTF-8" />
-<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
-<link rel="stylesheet" type="text/css" href="Stylesheets\Home_Data.css">
-</head>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Contact">Contact</a></li>
+				<li><a href="#Games">Games</a></li>
+				<li><a href ="#About"> About </a></li>
+				<li><a href ="#News"> News </a></li> 
+			 
+			</ul>
+		</div>
+		
+		<!--
+		lite random text div som visas utåt om företaget och säger välkomen.
+		//-->
+		<div class="vText">
 
-<body>
+			<h1>Welcome</h1>
 
-<div class="nav">
+			<p> This is Blck Eagle Game</p>
 
-<ul>
+			<p> We are a fast growing gaming company </p>
 
-  <li><a href="#Home">Home</a></li>
-  <li><a href="#Contact">Contact</a></li>
-  <li><a href="#Games">Games</a></li>
-  <li><a href ="#About"> About </a></li>
- <li><a href ="#News"> News </a></li> 
- 
-</ul>
-
-</div>
-
-<div class="vText">
-
-<h1>Welcome</h1>
-
-<p> This is Blck Eagle Game</p>
-
-<p> We are a fast growing gaming company </p>
-
-<p> We love games! </p>
-
-</div>
-
-</body>
-
+			<p> We love games! </p>
+		</div>
+		
+		<!--
+		insert slider here.
+		//-->
+	</body>
 </html>
