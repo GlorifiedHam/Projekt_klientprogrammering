@@ -1,46 +1,25 @@
-#Officeimgs{
-    width: 48%;
-    background-color: red;
-    margin-top: -0.25em; 
-    margin-left: -0.25em;
-    margin-right: 0.25em;
-    margin-bottom: 0.25em;
+#archiveImgs{
+    width: 60%;
+    margin: auto;
     padding: 0;
     border: solid;
-    float: left;
     text-align: center;
 }
 
 #officetitle{
-
 }
 
-#officeimg1{
-    width: 47%;
+#gameimg1{
+    width: 60%;
     border: solid;
-    float: left;
 }
 
-#officeimg2{
-    width: 47%;
+#gameimg2{
+    width: 40%;
     border: solid;
-    float: right;
 }
 
-#officeimg3{
-    width: 47%;
+#gameimg3{
+    width: 40%;
     border: solid;
-    float: left;
-}
-
-#Text{
-    width: 48%;
-    background-color: red;
-    margin-top: -0.25em; 
-    margin-left: -0.25em;
-    margin-right: 0.25em;
-    margin-bottom: 0.25em;
-    padding: 0;
-    border: solid;
-    float: right;
 }
