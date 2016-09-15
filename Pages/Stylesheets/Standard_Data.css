@@ -58,9 +58,13 @@ h1, p{
 
 .vText p{
 	font-size: 150%;
-
 }
 
 .vText h1{
     font-size:250%;
+}
+
+#logo{
+	width: 20%;
+    float: left;
 }
