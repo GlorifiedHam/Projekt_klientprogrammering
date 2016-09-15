@@ -8,11 +8,13 @@
 		<meta charset="UTF-8" />
 
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Contact_Data.css">
         <script src="Jquerry/jquery-3.1.0.min.js"></script>
 	</head>
 
 	<body>
         <img id="logo" src="bilder\logo.png">
+
 		<div class="nav">
 			<ul>
 
@@ -26,26 +28,29 @@
 		</div>
 
 
-		<div>
-        <fieldset>
-        <legend>Fråga oss</legend>
-        <label>E-post:
-        <input type= "email" placeholder="for@example.com"/>
-        </label>
-        <label>Ämne
-        <input type="text" name = "amne" placeholder="Ämne"/>
-        </label>
-        <label> Fråga <br />
-        <textarea name="fraga" rows="8" cols="50" >
-        Skriv din fråga här
-        </textarea>
-        </label>
+		<div id="contacts">
+            <fieldset>
+                <legend>Fråga oss</legend>
 
-       </fieldset>
-        <button> Skicka fråga </button>
+                <label>E-post:
+                     <input type= "email" placeholder="for@example.com"/>
+                </label>
+
+                <label>Ämne
+                     <input type="text" name = "amne" placeholder="Ämne"/>
+                </label>
+
+                <label> Fråga <br />
+                <textarea name="fraga" rows="8" cols="50" >
+                Skriv din fråga här
+                </textarea>
+                </label>
+
+           </fieldset>
+            <button> Skicka fråga </button>
 
 
-		</div>
+	    </div>
 
 	</body>
 </html>
