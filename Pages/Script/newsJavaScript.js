@@ -1,27 +1,22 @@
 $(document).ready(function()
 {
 
- 
-$.get('xml/News.xml',function(data){
-	  $('#a').empty();
+$.get('http://ofcourse.oru.se/~IK2009/xml/get_news.php',function(data){
 $(data).find('article').each(function(){
 var $article= $(this);
 
-var html = '<div class ="xmlNews">';
-html+='<h1 class="newsTitle">';
-html += $article.find('title').text();
-html += '</h1>';
-html += '<p class="newsBody">';
+ 
+var html ='<h2 class="newsTitle">';
+html += $article.find('title').text(); 
+html += '</h2><p class="newsBody">';
 html += $article.find('bodytext').text();
-html += '</p>';
-html += '<p class="newsDate">';
-html += $article.find('date');
-html += '</p>';
-html += '</div>';
+html += '</p><p class="newsDate">';
+html += $article.find('date').text();
+html += '</p></div>';
  
 
 
- $('#a').append($(html));
+ $('#news').append($(html));
 
 });
 
