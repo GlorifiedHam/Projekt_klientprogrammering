@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <!--
 den här html filen är startfilen eller hem html filen för hemsidan som vi utgår ifrån.
 //-->
@@ -18,9 +18,9 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
 		//-->
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Home_Data.css">
-         <script type="text/javascript" src="Script/homeJavaScript.js"></script>
+		<script type="text/javascript" src="Jquerry/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="Script/homeJavaScript.js"></script>
          	
-
 
 	</head>
 
@@ -31,11 +31,11 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
 		<div class="nav">
 			<ul>
 
-				<li><a href="#Home">Home</a></li>
-				<li><a href="#Contact">Contact</a></li>
-				<li><a href="#Games">Games</a></li>
-				<li><a href ="#About"> About </a></li>
-				<li><a href ="#News"> News </a></li> 
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="Archive.html">Games</a></li>
+				<li><a href ="About.html"> About </a></li>
+				<li><a href ="News.html"> News </a></li> 
 			 
 			</ul>
 		</div>
@@ -57,11 +57,11 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
 		<!--
 		insert slider here.
 		//-->
+
       <div>
        <input onclick="displayImage();" type=button value="Display Random Image">
       <img src="Bilder/covers.png" name="canvas">
       </div>
-   
 
 	</body>
 </html>
