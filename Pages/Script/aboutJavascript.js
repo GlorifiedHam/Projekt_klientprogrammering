@@ -1,5 +1,6 @@
  $(document).ready(function(){
 
+$('.foo').maphilight();
 
 $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data) {
 if (data.status == 1) { // Lyckades
@@ -7,11 +8,11 @@ if (data.status == 1) { // Lyckades
 
 
 $('#output').append(
-'<br />' + data.result.orebro.name + data.result.orebro.address + data.result.orebro.phone + '<br />'+
-'<br />' + data.result.goteborg.name + data.result.goteborg.address + data.result.goteborg.phone + '<br />'+
-'<br />' + data.result.toronto.name + data.result.toronto.address + data.result.toronto.phone + '<br />'+
-'<br />' + data.result.snoqualmie.name + data.result.snoqualmie.address + data.result.snoqualmie.phone + '<br />'+
-'<br />' + data.result.sheffield.name + data.result.sheffield.address + data.result.sheffield.phone + '<br />'
+data.result.orebro.name +' Adress:  '+  data.result.orebro.address +' Phone: '+ data.result.orebro.phone + '<br />'+
+'<br />' + data.result.goteborg.name + ' Adress: ' + data.result.goteborg.address +'  Phone: '+ data.result.goteborg.phone + '<br />'+
+'<br />' + data.result.toronto.name + ' Adress: ' +data.result.toronto.address + ' Phone: ' +data.result.toronto.phone + '<br />'+
+'<br />' + data.result.snoqualmie.name +'  Adress: '+ data.result.snoqualmie.address +'  Phone: '+ data.result.snoqualmie.phone + '<br />'+
+'<br />' + data.result.sheffield.name +'  Adress: '+ data.result.sheffield.address +' Phone: '+ data.result.sheffield.phone + '<br />'
 
 
 );
@@ -24,9 +25,15 @@ $('#output').text(data.message);
 
 });
 
+  $(function () {
+        $('.foo').maphilight({ stroke: false, fillColor: '009DDF', fillOpacity: 1 });
+    });
+
+});
 
 
-functionMapClick(city){
+
+/* functionMapClick(city){
 
 	$.getJSON(
 'http://ofcourse.oru.se/~IK2009/json/get_office.php',
@@ -46,6 +53,7 @@ $('#mapAnswer').text(data.message);
 }
 
 });
+ */
 /* var html = '';
 $.each(data, function(entryIndex, entry){
 html+='<div class = "entry">';

@@ -7,8 +7,11 @@
 		
 		<meta charset="UTF-8" />
 		
+
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
 		<link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css">
+        <link media="screen and (max-width:480px)" rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" />
+
         <script src="Jquerry/jquery-3.1.0.min.js"></script>
         <script src="Script/aboutJavaScript.js"></script>
 	</head>
@@ -42,16 +45,30 @@
    
     <figure>
     <figcaption>
-    Map map map
-     <img src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" />
+    
+     <img src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" class="foo"/>
     </figcaption>
     </figure>
 
     <map name= "world" id= "norden">
-    <area shape = "circle" coords="35,36,35" href ="dif.se" alt = "dif" />
+    <area shape = "poly" coords="275,10,275,42,286,42,289,13"  href="#Sverige" alt = "#Sverige" />
         <a href= "dif.se"> dif </a>
+
+
+<area shape="poly" coords="114,44,115,61,141,61,142,48" href="#Toronto" alt= "#Toronto" />
+
+<area shape="poly" coords="56,39,56,59,74,59,77,43"  href="#Snoqualmie "  alt="#Snoqualmie"/>
+
+    <area shape="poly" coords="261,38,250,38,251,47,259,49" href="#Sheffield" alt="#Sheffield"/>
+
+    
     </map>
 <div class ="mapAnswer">
+
+
+
+
+
 
 </div>
 

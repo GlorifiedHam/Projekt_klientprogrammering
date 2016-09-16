@@ -64,7 +64,6 @@ h1, p{
     font-size:250%;
 }
 
-#logo{
+#logo{ /*ändrar logan till rätt storlek på datorer och defult värde */
 	width: 20%;
-    float: left;
 }

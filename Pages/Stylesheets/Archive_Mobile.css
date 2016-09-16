@@ -1,0 +1,35 @@
+@media screen and (orientation: portrait)
+{
+
+    #gameimg1{
+           width: 100%;
+    }
+
+    #gameimg2{
+           width: 100%;
+    }
+
+   #gameimg3{
+           width: 100%;
+    }
+
+   #archiveImgs{
+            width: 100%;
+    }
+}
+
+@media screen and (max-width: 40.5em) and (orientation: landscape)
+{
+
+    #gameimg1{
+           width: 100%;
+    }
+
+    #gameimg2{
+           width: 100%;
+    }
+
+   #gameimg3{
+           width: 100%;
+    }
+}
