@@ -1,0 +1,14 @@
+@media screen and (orientation: portrait)
+{
+    #logo{
+	width: 30%;
+    margin: auto;
+    }
+}
+
+@media screen and (max-width: 40.5em) and (orientation: landscape)
+{
+    #logo{
+	width: 40%;
+    }
+}
