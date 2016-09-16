@@ -1,14 +1,22 @@
 @media screen and (orientation: portrait) /* poträtt version för telefone och surfplattor i detta läge */
 {
     #logo{
-	width: 30%;
-    margin: auto;
+	    width: 30%;
+        margin: auto;
+    }
+}
+
+@media screen and (orientation: landscape) /* landskap läge för datorer med lägre uplösning och surfplattor och telefoner i detta läge */
+{
+    #logo{
+        float: left;
     }
 }
 
 @media screen and (max-width: 40.5em) and (orientation: landscape) /* landskap läge för datorer med lägre uplösning och surfplattor och telefoner i detta läge */
 {
     #logo{
-	width: 40%;
+	    width: 40%;
+        float: left;
     }
 }
