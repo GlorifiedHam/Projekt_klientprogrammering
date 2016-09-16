@@ -1,4 +1,4 @@
-@media screen and (orientation: portrait)
+@media screen and (orientation: portrait) /* poträtt version för telefone och surfplattor i detta läge */
 {
     #logo{
 	width: 30%;
@@ -6,7 +6,7 @@
     }
 }
 
-@media screen and (max-width: 40.5em) and (orientation: landscape)
+@media screen and (max-width: 40.5em) and (orientation: landscape) /* landskap läge för datorer med lägre uplösning och surfplattor och telefoner i detta läge */
 {
     #logo{
 	width: 40%;
