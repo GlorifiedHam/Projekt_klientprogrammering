@@ -31,10 +31,6 @@
                 alert("misslykades att hämta kontor");
             };
         });
-
-        function skrivutstad() {
-            alert("skrivutstad");
-        }
     });
 
 
