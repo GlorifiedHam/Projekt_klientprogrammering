@@ -31,13 +31,18 @@
                 alert("misslykades att hämta kontor");
             };
         });
+
+        function skrivutstad() {
+            alert("skrivutstad");
+        }
     });
 
 
 
     $(".Toronto").on("click", function (e) {
         e.preventDefault();
-        alert("Toronto");
+        //alert("Toronto");
+        skrivutstad();
     });
 
     $(".Snoqualmie").on("click", function (e) {
