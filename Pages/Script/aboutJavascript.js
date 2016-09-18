@@ -24,8 +24,6 @@ $('#output').text(data.message);
 
 });
 
-
-
 });
 
 
