@@ -48,7 +48,7 @@ for (var prop in data.result) {
 
 
             else { // Misslyckades att hämta enskilt kontor
-                alert("misslykades att hämta kontor");
+                alert("misslykades att hämta enskilt kontor");
             };
         });
     });
