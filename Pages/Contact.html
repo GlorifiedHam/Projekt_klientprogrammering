@@ -29,24 +29,24 @@
 
 
 		<div id="contacts">
-        <form >
+        <form name="form1" >
             <fieldset>
                 <legend>Fråga oss</legend>
 
                 <label>E-post:
-                     <input type= "email" placeholder="for@example.com" name="Epost"/>
+                     <input type= "email" placeholder="for@example.com" name="Epost" id="epost"/>
                 </label>
 
                 <label>Ämne
-                     <input type="text" name = "amne" placeholder="Ämne" />
+                     <input type="text" name = "amne" placeholder="Ämne" id="amne" />
                 </label>
 
                 <label> Fråga <br />
-                <textarea  name="fraga" rows="8" cols="50" placeholder="default Value" ></textarea>
+                <textarea  name="fraga" rows="8" cols="50" placeholder="default Value" id="fraga" ></textarea>
                 </label>
 
            </fieldset>
-            <input type="submit" value = "Submit" id="submit">  
+            <input type="submit" value = "submit" id="submit" onsubmit="return checkform()" >  
 </form>
 
 	    </div>
