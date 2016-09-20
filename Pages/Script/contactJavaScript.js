@@ -1,7 +1,7 @@
 $(document).ready(function() { 
-	function checkIfEmpty(data){
+ function checkIfEmpty(data){
 return /^\s*$/.test(data);
-		
+  
 }
 
 function validateEmail(data){
@@ -13,26 +13,35 @@ return reg.test(data);
 
 }
 
-$('#submit').click(function () {
-
-if(checkIfEmpty(document.forms["form1"]["Epost"].value)){
-alert("Email kan inte vara tomt" /*lägg till autofocus*/)
-
+$('#submit').click(function (){
+if(checkIfEmpty(document.forms["form1"]["epost"].value)){
+alert("Email kan inte vara tomt" /*lägg till autofocus*/);
+ document.forms["form1"].elements["epost"].focus();
 }
 
 else if(checkIfEmpty(document.forms["form1"]["amne"].value)){
-alert("Ämne kan inte vara tomt" /*lägg till autofocus*/ )
+alert("Ämne kan inte vara tomt" /*lägg till autofocus*/ );
+document.forms["form1"]["amne"].focus();
+
 }
 
 else if(checkIfEmpty(document.forms["form1"]["fraga"].value)){
-	alert("Du måste ange en fråga ")
+ alert("Du måste ange en fråga ");
+ 
+  document.forms["form1"]["fraga"].focus();
 }
 
-else if(!validateEmail(document.forms["form1"]["Epost"].value)){
-alert("Fel format på emailen ")
-
+else if(!validateEmail(document.forms["form1"]["epost"].value)){
+alert("Fel format på emailen ");
+document.forms["form1"]["epost"].focus();
 }
- else{
+
+else{
+
+
+
+
+
 
      $.ajax({
 url: 'http://ofcourse.oru.se/~IK2009/contactform/contact_form.php',
@@ -44,10 +53,11 @@ error: function() {
 alert('Nu var det något som gick fel :(');
 }
 });
+
+
+
+
+
 }
 });
 });
-
-
-
-

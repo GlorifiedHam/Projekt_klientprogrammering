@@ -8,15 +8,15 @@
         <meta charset="UTF-8" />
         
 
-        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
-        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css">
-        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" />
-        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Mobile.css">
-
-        <script src="Jquerry/jquery-3.1.0.js"></script>
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css"> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css"> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" /> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Mobile.css"> <!-- Laddar ett Stylesheet -->
+ 
+        <script src="Jquerry/jquery-3.1.0.js"></script> <!-- Laddar i JQuery -->
         
-        <script type="text/javascript" src="Jquerry/jquery.maphilight.min.js"></script>
-        <script src="Script/aboutJavaScript.js"></script>
+        <script type="text/javascript" src="Jquerry/jquery.maphilight.min.js"></script> <!-- Laddar in pluginet maphighlight  -->
+        <script src="Script/aboutJavaScript.js"></script> <!-- Laddar in javascript -->
         <script type="text/javascript">$(function ()
             {
                 $('.foo').maphilight();
@@ -26,14 +26,14 @@
     </head>
 
     <body>
-        <img id="logo" src="bilder\logo.png">
-        <div class="nav">
+        <img id="logo" src="bilder\logo.png"> <!-- Logo bild -->
+        <div class="nav"> <!-- Navegerings meny -->
             <ul>
-                <li><a href="Home.html">Home</a></li>
+                <li><a href="Home.html">Home</a></li> 
                 <li><a href="Contact.html">Contact</a></li>
                 <li><a href="Archive.html">Archive</a></li>
                 <li><a href="About.html"> About </a></li>
-                <li><a href="News.html"> News </a></li>
+                <li><a href="News.html"> News </a></li> <!-- Länkar till websidans sidor-->
             </ul>
         </div>
 
@@ -42,31 +42,32 @@
         //-->
          <div = class="vText">
         
-            <h1>About us</h1>
-            <p>We love to make and publish games</p>
+            <h1>About us</h1> <!-- Rubrik -->
+            <p>We love to make and publish games</p> <!-- Paragraf -->
             <p>We have been in the buisness since 1989</p>
             <p>We have made over 100 games for the pc platform</p>
             <figure id="figure">
-                <figcaption>
-                        <img src="Bilder/world-map.jpg " alt="Map" usemap="#world" class="foo" />
+            <img src="Bilder/world-map.jpg " alt="Map" usemap="#world" class="foo" /> <!-- lägger till en bild med usemap som tag för att indikera att det är en karta -->
+                <figcaption  >
+                    Tryck på ett land där vi har ett kontor
                 </figcaption>
             </figure>
 
-            <map name="world" id="norden">
-                   <area shape="poly" coords="275,10,275,42,286,42,289,13" class="Svergie" href="#Sverige" alt="#Sverige" />
+            <map name="world" id="norden"> <!-- Tag för att indikera att de är en karta -->
+                   <area shape="poly" coords="275,10,275,42,286,42,289,13" class="Svergie" href="#Sverige" alt="#Sverige" /> <!--  Lägger till en klickbar zone i kartan-->
 
-                   <area shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" href="#Toronto" alt="#Toronto" />
+                   <area shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" href="#Toronto" alt="#Toronto" /> <!--  Lägger till en klickbar zone i kartan-->
 
-                   <area shape="poly" coords="56,39,56,59,74,59,77,43" class="Snoqualmie" href="#Snoqualmie " alt="#Snoqualmie" />
+                   <area shape="poly" coords="56,39,56,59,74,59,77,43" class="Snoqualmie" href="#Snoqualmie " alt="#Snoqualmie" /> <!--  Lägger till en klickbar zone i kartan-->
 
-                   <area shape="poly" coords="261,38,250,38,251,47,259,49" class="Sheffield" href="#Sheffield" alt="#Sheffield" />
+                   <area shape="poly" coords="261,38,250,38,251,47,259,49" class="Sheffield" href="#Sheffield" alt="#Sheffield" /> <!--  Lägger till en klickbar zone i kartan-->
             </map>
 
-            <div id="mapAnswer" class="mapAnswer">
+            <div id="mapAnswer" class="mapAnswer"> <!-- I denna div kommer svaret ifrån klicken på kartan läggas-->
 
             </div>
 
-            <div id="output">
+            <div id="output"> <!-- I denna kommer listan på alla företagets kontor läggas-- >
                  <h1> Lista över all kontor </h1>
 
             </div>

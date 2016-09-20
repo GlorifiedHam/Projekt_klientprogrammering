@@ -7,46 +7,46 @@
 
 		<meta charset="UTF-8" />
 
-		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css" />
-        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" />
-        <link rel="stylesheet" type="text/css" href="Stylesheets\Contact_Data.css" />
-        <script src="Jquerry/jquery-3.1.0.min.js"></script>
-        <script src ="Script/contactJavaScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css" /> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" /> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Contact_Data.css" /> <!-- Laddar ett Stylesheet -->
+        <script src="Jquerry/jquery-3.1.0.min.js"></script> <!-- Laddar i JQuery -->
+        <script src ="Script/contactJavaScript.js"></script> <!-- Laddar in javascript -->
 	</head>
 
 	<body>
-        <img id="logo" src="bilder\logo.png">
+        <img id="logo" src="bilder\logo.png"> <!-- Logo bild -->
 
-		<div class="nav">
+		<div class="nav">  <!-- Navegerings meny -->
 			<ul>
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="Contact.html">Contact</a></li>
                 <li><a href="Archive.html">Archive</a></li>
                 <li><a href="About.html"> About </a></li>
-                <li><a href="News.html"> News </a></li>
+                <li><a href="News.html"> News </a></li> <!-- Länkar till websidans sidor-->
 			</ul>
 		</div>
 
 
 		<div id="contacts">
-        <form name="form1" >
+        <form name="form1" > <!-- Skapar en form med namnet form1 -->
             <fieldset>
-                <legend>Fråga oss</legend>
+                <legend>Fråga oss</legend> <!-- Rubrik till formuläret -->
 
-                <label>E-post:
-                     <input type= "email" placeholder="for@example.com" name="Epost" id="epost"/>
+                <label>E-post: <!-- Rubrik till input fältet epost -->
+                     <input type= "email" placeholder="for@example.com" name="epost" id="epost" autofocus="true" /> <!-- Skapar ett input fält -->
                 </label>
 
-                <label>Ämne
-                     <input type="text" name = "amne" placeholder="Ämne" id="amne" />
+                <label>Ämne <!-- Rubrik till input fältet epost -->
+                     <input type="text" name = "amne" placeholder="Ämne" id="amne" /> <!-- Skapar ett input fält -->
                 </label>
 
-                <label> Fråga <br />
-                <textarea  name="fraga" rows="8" cols="50" placeholder="default Value" id="fraga" ></textarea>
+                <label> <!-- Rubrik till textarean Fraga -->
+                <textarea  name="fraga" rows="8" cols="50" placeholder="Fraga" id="fraga" ></textarea> <!-- Skapar en text area -->
                 </label>
 
            </fieldset>
-            <input type="submit" value = "submit" id="submit" onsubmit="return checkform()" >  
+            <input type="submit" value = "Submit" id="submit" >  <!-- Skapar en knapp -->
 </form>
 
 	    </div>
