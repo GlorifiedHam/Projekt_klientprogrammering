@@ -2,13 +2,7 @@
 {
     #logo{
 	    width: 30%;
-    }
-}
-
-@media screen and (orientation: landscape) /* landskap läge för datorer med lägre uplösning och surfplattor och telefoner i detta läge */
-{
-    #logo{
-        float: left;
+        float: right;
     }
 }
 
@@ -16,6 +10,5 @@
 {
     #logo{
 	    width: 40%;
-        float: left;
     }
 }

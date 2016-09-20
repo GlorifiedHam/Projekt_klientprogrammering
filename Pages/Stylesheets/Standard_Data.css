@@ -66,4 +66,5 @@ h1, p{
 
 #logo{ /*ändrar logan till rätt storlek på datorer och defult värde */
 	width: 20%;
+    float: left;
 }
