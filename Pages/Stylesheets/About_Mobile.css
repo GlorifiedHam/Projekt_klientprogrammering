@@ -1,15 +1,23 @@
 @media screen and (orientation: portrait){
-    #output {
-
+    .foo{
+        
     }
 
     #mapAnswer{
+        width: 100%;
+    }
+
+    #figure{
         width: 100%;
     }
 }
 
 @media screen and (max-width: 40.5em) and (orientation: landscape) {
     #mapAnswer{
-        width: 100%;
+        width: 85%;
+    }
+
+    #figure{
+        width: 85%;
     }
 }

@@ -3,11 +3,13 @@
 }
 
 .foo{
-    overflow: auto;
     margin: auto;
 }
 
-#mapAnswer{
+#figure{
+    margin: auto;
+    overflow: auto;
+    width: 70%;
 }
 
 #mapAnswer{
