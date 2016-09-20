@@ -1,3 +1,5 @@
+$(document).ready(function() { 
+
 $('#submit').click(function () {
 
     $.ajax({
@@ -5,11 +7,13 @@ $('#submit').click(function () {
         type: 'GET',
 
         success: function(msg) {
-        alert(msg);
+        alert("msg");
         },
 
         error: function() {
             alert('Nu var det något som gick fel :(');
         }
     });
+});
+
 });
