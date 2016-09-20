@@ -1,4 +1,4 @@
- $(document).ready(function(){
+$(document).ready(function() {
  
     $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data) {
         if (data.status == 1) { // Lyckades att hämta
@@ -105,4 +105,4 @@
             };
         });
     });
-});
+ });
