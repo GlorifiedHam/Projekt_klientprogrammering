@@ -149,8 +149,3 @@ for (var prop in data.result) {
         });
     });
 });
-
-
-
-
-
