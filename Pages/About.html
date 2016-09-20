@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<Title>
@@ -9,8 +9,9 @@
 		
 
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css">
-		<link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css">
         <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" />
+        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css">
+        <link rel="stylesheet" type="text/css" href="Stylesheets\About_Mobile.css">
 
         <script src="Jquerry/jquery-3.1.0.js"></script>
         
@@ -21,6 +22,7 @@
         $('.foo').maphilight();
     });
 </script>
+
 
 	</head>
 
@@ -39,7 +41,7 @@
 		<!--
 		lite random text div som visas utåt om företaget.
 		//-->
-<div = class="vText">
+<div class="vText">
 		
 		<h1>About us</h1>
 		<p>We love to make and publish games</p>
@@ -48,24 +50,26 @@
    
         <figure>
         <figcaption>
+
+     <img id="mapper" src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" />
+    </figcaption>
+    </figure>
+
+    <map name= "world" id= "world">
+    <area alt = "#Sverige" title= "" href="#Sverige" shape = "poly" coords="275,10,275,42,286,42,289,13" class="Sweden"   />
+       
+
+
+<area alt= "#Toronto" title= "" href="#Toronto"  shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" />
+
+<area alt="#Snoqualmie" title= "" href="#Snoqualmie  " shape="poly" coords="56,39,56,59,74,59,77,43" class="Snoqualmie"  />
+
+    <area alt="#Sheffield" title= "" href="#Sheffield" shape="poly" coords="261,38,250,38,251,47,259,49" class = "Sheffield" />
+
     
-        <img src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" class="foo"/>
-        </figcaption>
-        </figure>
+    </map>
 
-        <map name= "world" id= "norden">
-        <area shape = "poly" coords="275,10,275,42,286,42,289,13" class="Svergie"  href="#Sverige" alt = "#Sverige" />
- 
-
-
-       <area shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" href="#Toronto" alt= "#Toronto" />
-
-       <area shape="poly" coords="56,39,56,59,74,59,77,43" class="Snoqualmie"  href="#Snoqualmie "  alt="#Snoqualmie"/>
-
-       <area shape="poly" coords="261,38,250,38,251,47,259,49" class="Sheffield" href="#Sheffield" alt="#Sheffield"/>
-
-        </map>
-
+       
         <div id="mapAnswer" class="mapAnswer">
 
         </div>
@@ -73,7 +77,6 @@
         <div id="output">
              <h1> Lista över all kontor </h1>
 
-        </div>
 
 </div>
 	</body>

@@ -5,10 +5,13 @@
 .foo{
 
 	
+
 }
 
 #mapAnswer{
-    width: 800px;
-    height: 200px;
+    width: 70%;
+    height: 15em;
     background-color: powderblue;
+    margin: auto;
+    text-align: center;
 }

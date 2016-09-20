@@ -1,0 +1,15 @@
+@media screen and (orientation: portrait){
+    #output {
+
+    }
+
+    #mapAnswer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 40.5em) and (orientation: landscape) {
+    #mapAnswer{
+        width: 100%;
+    }
+}
