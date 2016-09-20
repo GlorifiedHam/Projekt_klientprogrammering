@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<Title>
@@ -12,8 +12,10 @@
 		<link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css">
         <link media="screen and (max-width:480px)" rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" />
 
-        <script src="Jquerry/jquery-3.1.0.min.js"></script>
+        <script src="Jquerry/jquery-3.1.0.js"></script>
         <script src="Script/aboutJavaScript.js"></script>
+       <!-- <script src="Script/asd.js"></script> -->
+       
 	</head>
 
 	<body>
@@ -46,31 +48,24 @@
     <figure>
     <figcaption>
     
-     <img src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" class="foo"/>
+     <img id="mapper" src ="Bilder/world-map.jpg " alt="Map" usemap= "#world" />
     </figcaption>
     </figure>
 
-    <map name= "world" id= "norden">
-    <area shape = "poly" coords="275,10,275,42,286,42,289,13"  href="#Sverige" alt = "#Sverige" />
-        <a href= "dif.se"> dif </a>
+    <map name= "world" id= "world">
+    <area alt = "#Sverige" title= "" href="#Sverige" shape = "poly" coords="275,10,275,42,286,42,289,13" class="Sweden"   />
+       
 
 
-<area shape="poly" coords="114,44,115,61,141,61,142,48" href="#Toronto" alt= "#Toronto" />
+<area alt= "#Toronto" title= "" href="#Toronto"  shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" />
 
-<area shape="poly" coords="56,39,56,59,74,59,77,43"  href="#Snoqualmie "  alt="#Snoqualmie"/>
+<area alt="#Snoqualmie" title= "" href="#Snoqualmie  " shape="poly" coords="56,39,56,59,74,59,77,43" class="Snoqualmie"  />
 
-    <area shape="poly" coords="261,38,250,38,251,47,259,49" href="#Sheffield" alt="#Sheffield"/>
+    <area alt="#Sheffield" title= "" href="#Sheffield" shape="poly" coords="261,38,250,38,251,47,259,49" class = "Sheffield" />
 
     
     </map>
-<div class ="mapAnswer">
 
-
-
-
-
-
-</div>
 
 
 
@@ -80,6 +75,10 @@
 
 
 </div>
+
+<div id ="mapAnswer">
+
+
 
 </div>
 	</body>
