@@ -3,6 +3,7 @@
 }
 
 .foo{
+    overflow: auto;
     margin: auto;
 }
 
