@@ -1,8 +1,7 @@
 $(document).ready(function() {
- 
+        //lista med kontoren som black eagle games har. tar ut med getjson kod
     $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data) {
         if (data.status == 1) { // Lyckades att hämta
-        // kommer hit.      
             for (var prop in data.result) {
                if( data.result.hasOwnProperty( prop ) ) {
                   $('#output').append(
@@ -20,13 +19,18 @@ $(document).ready(function() {
         };
     });
 
-
+    //om man clickar på svergie på kartan med id norden så kommer man hit
    $(".Svergie").on("click", function (e) {
             e.preventDefault();
             
-        $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',{city:'orebro'},function (data) {
+            $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php', { city: 'orebro' }, function (data) {
 
-            if (data.status == 1) { // Lyckades att hämta enskilt kontor
+            //här tar man ut informationen från den länken man fått genom upgiften och med getjson anrop
+            //och kollar statusen om den är 1 annars varnar den att man inte kom åt filen.
+            //informationen man tar ut är om just det kontroet man vill ha. Med namn telefon nummer och adress
+            //och stoppar in det i en divtag som nu heter mapAnswer
+
+                if (data.status == 1) { // Lyckades att hämta enskilt kontor
                     $('#mapAnswer').append(
                         'Stad: ' + data.result.name + ' Address: ' +data.result.address +' Phone: ' +data.result.phone +'</br>' 
                     )
