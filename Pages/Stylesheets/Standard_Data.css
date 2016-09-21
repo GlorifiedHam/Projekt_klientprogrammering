@@ -1,12 +1,15 @@
+
+/* här sätter vi cssen på generela saker så som navigeringsmenyn som vi använder på alla delar av hemsiadan*/
 body{
 	background-color:#ffffff;
 }
 
-
+/* här sätter vi standard fonten på texten */
 h1, p{
   font-family: "Times New Roman", Times, serif;
 }
 
+/* här sätter man värdena på navigeringsmenyn med margins och storlek */
  .nav ul {
     list-style-type: none;
     margin-top: -0.25em; 
@@ -19,15 +22,18 @@ h1, p{
     width: 100%;
 }
 
+ /* här sätter vi värden på själva listobjektet som vi kör till vänster och sätter en höger border */
 .nav li {
     float: left;
     border-right:1px solid #bbb;
 }
 
+ /* här sätter vi så att sista objektet i listan inte har en höger border för att göra det snyggare */
 .nav li:last-child {
     border-right: none;
 }
 
+/* här sätter vi stylen på texten vi har på länkarna vi har i listan*/
 .nav li a {
     display: block;
     color: white;
@@ -36,6 +42,7 @@ h1, p{
     text-decoration: none;
 }
 
+/* Hover functions som sätter mörkare färg på knapparna när man drar musen över dom eller trycker på dom med fingrarna */
 .nav li a:hover:not(.active) {
     background-color: #111;
 }
@@ -44,6 +51,7 @@ h1, p{
     background-color: #4CAF50;
 }
 
+/* vtext är våran standrad div för text med olika delar på strötexten och rubriker */
 .vText{
 	height: 50%;
 	width: 100%;
@@ -52,7 +60,7 @@ h1, p{
 	margin-top: -0.25em;
 	margin-right: 0.25em;
 	margin-left:-0.25em;
-	margin-bottom:none;
+	margin-bottom: none;
 	padding-top: 0.5em;
 }
 
@@ -64,7 +72,8 @@ h1, p{
     font-size:250%;
 }
 
-#logo{ /*ändrar logan till rätt storlek på datorer och defult värde */
+/*ändrar logan till rätt storlek på datorer och defult värde */
+#logo{
 	width: 20%;
     float: left;
 }

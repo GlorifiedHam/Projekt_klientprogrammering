@@ -1,35 +1,30 @@
-@media screen and (orientation: portrait)
+@media screen and (orientation: portrait) /* Sätter värden beroende skärmen står vertikalt */
 {
-
     #gameimg1{
            width: 100%;
     }
-
     #gameimg2{
            width: 100%;
     }
-
    #gameimg3{
            width: 100%;
     }
-
    #archiveImgs{
             width: 100%;
     }
 }
 
-@media screen and (max-width: 40.5em) and (orientation: landscape)
+@media screen and (max-width: 40.5em) and (orientation: landscape) /* Sätter värden beroende på uplösningen på breden och att skärmen liger horisontelt */
 {
-
     #gameimg1{
            width: 100%;
     }
-
     #gameimg2{
            width: 100%;
     }
-
    #gameimg3{
            width: 100%;
     }
 }
+
+/* Här sätter vi storleken på bilderna separat för att kunna styra som separat */

@@ -1,3 +1,4 @@
+
 #output {
 
 }
@@ -6,17 +7,21 @@
     margin: auto;
 }
 
-#figure{/* hÃ¤r Ã¤r delen som sÃ¤tter storleken runt den klickbara kartan */
+
+
+#figure{ /* här är delen som sätter storleken runt den klickbara kartan */
+
     margin: auto;
     overflow: auto;
     width: 70%;
 }
 
-#mapAnswer{
+#mapAnswer{ /* här sätter vi värdena på diven där vi lägger våra svar vi får av att klicka på kartorna me centrering av texten och centrering av diven med margin */
     width: 50%;
     height: 4em;
-    
     margin: auto;
     text-align: center;
 }
 
+
+/* sätter atandard värden på dena del av hemsidan*/

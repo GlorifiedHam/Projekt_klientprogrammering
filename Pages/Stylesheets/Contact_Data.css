@@ -1,33 +1,29 @@
-#contacts{
+#contacts{ /* sätter värden på diven som innehåller allt med att sätta den på rätt plats och justera storlek */
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-input {
-margin:0.5em;
-padding:0.25em; 
-
+input { /* sätter värden på knapparna med margin och storlek */
+    margin:0.5em;
+    padding:0.25em; 
+    width: 25%;
 }
 
-textarea{
-resize: none;
+textarea{ /* sätter värden på textarean och sätter den till icke justerbar */
+    resize: none;
+    width: 75%;
 }
 
-#submit{
+#submit{ /* submit knappen storleks ändring */
     width: 25%;
 	font-size:1.6em;
 	height:1.6em;
 }
 
 
-label{
-display:inline;
-
-}
-
-input{
-
-	display:inline;
-}
-
+/*
+    Här så sätter vi standard värde på våran kontakt ruta med submit och textarea och en stor div över hela"contacts"
+    Här sätter vi värden för främst datorn på hela diven och det som är inne med både em och % för att det ska anpassa sig efter det man kör det på
+    Vi ändrar både hela diven och på input/textarea för att anpassa det
+*/

@@ -1,33 +1,10 @@
-.xmlNews{
 
-height:400px;
-width: 400px;
-
-}
-
-
-.newsTitle{
-
-
-
-}
-
-
-.newsBody{
-
-
-
-}
-
-
-.newsdate{
-
-
-
-}
 
 #news{
+    /* justerar storleken på diven där man lägger in news med % och centerar texten med text aligne och hela diven med margin auto*/
     width: 90%;
     margin: auto;
     text-align: center;
 }
+
+/* justerar sig fint utan mobile.css då det är så lite att justera*/
