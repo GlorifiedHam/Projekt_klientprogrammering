@@ -42,7 +42,11 @@ else{
 url: 'http://ofcourse.oru.se/~IK2009/contactform/contact_form.php',
 type: 'GET',
 success: function(msg) {
-alert(msg);
+alert(msg); 
+
+$( '.form1' ).each(function(){ // Do some thing to all elemtents in form1
+    this.reset();  // Resets the form
+});
 },
 error: function() {
 alert('Nu var det något som gick fel :(');
