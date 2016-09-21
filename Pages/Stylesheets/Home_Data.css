@@ -1,6 +1,8 @@
-
     div img{
-       height: 70%;
+       height: 60%;
+       width: 35%;
+       border: solid;
+       border-radius: 5px;
     }
 
     .imgGallery{
@@ -9,7 +11,6 @@
        height: 30em;
     }
 
-    #submit{
-
-    }
-
+    /* Här så sätter vi storleken på bildspelet */
+    /* Vi börjar med att sätta standardvärden och fasta värde på img gallery som har alla bilder inom sig. sedan tar vi och sätter värde på
+       själva bilden/bilderna med % för att få det att anpasa sig till sidan. vi sätter en kant med border på själva bilden och kör en text aligne center för att centrela själva bilden. */
