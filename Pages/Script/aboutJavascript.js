@@ -1,4 +1,6 @@
 $(document).ready(function() {
+     $('.foo').maphilight();
+    
         //lista med kontoren som black eagle games har. tar ut med getjson kod
     $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data) {
         if (data.status == 1) { // Lyckades att hämta
@@ -109,4 +111,28 @@ $(document).ready(function() {
             };
         });
     });
+
+
+    $("#Empty").on("click", function(e){
+        e.preventDefault();
+         $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data){
+            if (data.status == 1) { // Lyckades att hämta
+            for (var prop in data.result) {
+               if( data.result.hasOwnProperty( prop ) ) {
+                  $('#mapAnswer').append( 'Tyv&auml;rr finns det inga kontor h&auml;r, men bes&ouml;k g&auml;rna: '+ '<br />' + 'Land: ' + data.result[prop].name + 
+                         'Address: ' + data.result[prop].address + 'Phone: ' + data.result[prop].phone +'<br />'
+                  ) 
+               }
+            }
+        }
+
+        else { // Misslyckades att hämta full listan
+             //felmeddelande
+            $('#mapAnswer').text(data.message);
+        };
+
+              
+
+    });
  });
+});

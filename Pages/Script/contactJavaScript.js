@@ -6,8 +6,8 @@ return /^\s*$/.test(data);
 
 function validateEmail(data){
 
-var reg =/^([A-Za-z0-9_\-\.]){1,}\@([A-Za-z0-9_\-\.]){1,}\.([A-Za-z]{2,4})$/;
-return reg.test(data);
+var emailTest =/^([A-Za-z0-9_\-\.]){1,}\@([A-Za-z0-9_\-\.]){1,}\.([A-Za-z]{2,4})$/;
+return emailTest.test(data);
 //^= start with
 //$= end with
 
@@ -37,12 +37,7 @@ document.forms["form1"]["epost"].focus();
 }
 
 else{
-
-
-
-
-
-
+	
      $.ajax({
 url: 'http://ofcourse.oru.se/~IK2009/contactform/contact_form.php',
 type: 'GET',
