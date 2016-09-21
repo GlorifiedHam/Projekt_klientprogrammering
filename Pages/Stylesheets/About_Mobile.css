@@ -7,6 +7,23 @@
     #figure{
         width: 100%;
     }
+
+    #output p{
+
+    font-size: 1.5em;
+
+    }
+      .output {
+
+    background-color:red; 
+
+    }
+
+    .kontor{
+
+        font-size: 1.5em;
+    }
+
 }
 
 @media screen and (max-width: 40.5em) and (orientation: landscape) {

@@ -1,0 +1,9 @@
+@media screen and (orientation: portrait) /* poträtt version för telefone och surfplattor i detta läge */
+{
+ #contacts{
+float:left;
+
+}
+
+}
+

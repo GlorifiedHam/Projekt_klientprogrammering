@@ -20,3 +20,14 @@ resize: none;
 	height:1.6em;
 }
 
+
+label{
+display:inline;
+
+}
+
+input{
+
+	display:inline;
+}
+

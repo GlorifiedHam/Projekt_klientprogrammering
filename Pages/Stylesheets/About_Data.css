@@ -2,11 +2,11 @@
 
 }
 
-.foo{ /* här är delen som sätter scrollbars på kartan när den blir för liten */
+.foo{ /* hÃ¤r Ã¤r delen som sÃ¤tter scrollbars pÃ¥ kartan nÃ¤r den blir fÃ¶r liten */
     margin: auto;
 }
 
-#figure{/* här är delen som sätter storleken runt den klickbara kartan */
+#figure{/* hÃ¤r Ã¤r delen som sÃ¤tter storleken runt den klickbara kartan */
     margin: auto;
     overflow: auto;
     width: 70%;
@@ -19,3 +19,4 @@
     margin: auto;
     text-align: center;
 }
+
