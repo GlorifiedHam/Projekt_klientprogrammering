@@ -2,11 +2,11 @@
 
 }
 
-.foo{
+.foo{ /* här är delen som sätter scrollbars på kartan när den blir för liten */
     margin: auto;
 }
 
-#figure{
+#figure{/* här är delen som sätter storleken runt den klickbara kartan */
     margin: auto;
     overflow: auto;
     width: 70%;
