@@ -2,6 +2,7 @@ var imgArray = ["Bilder/kontor-1.png", "Bilder/kontor-3.png" , "Bilder/kontor-2.
 var interval = setInterval(loopImgArray, 15000); //startar om loopen när den är slut
 
 loopImgArray(); //startar bildspelet på inmatning av javascript
+//4s mellan bilderna och 15 för hela bildspelet. 3 bilder sammanlagt.
         
 function loopImgArray() {
     //javascripten för bildspelet. vi använde javascript och INTE jqerry
