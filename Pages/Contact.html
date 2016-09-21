@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css" /> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" /> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\Contact_Data.css" /> <!-- Laddar ett Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="Stylesheets\Contact_Mobil.css" /> <!-- Laddar ett Stylesheet -->
         <script src="Jquery/jquery-3.1.0.min.js"></script> <!-- Laddar i JQuery från lokal fil -->
         <script src ="Script/contactJavaScript.js"></script> <!-- Laddar in javascript -->
 	</head>
@@ -29,27 +30,25 @@
 
 
 		<div id="contacts">
-        <form name="form1" class="form1" > <!-- Skapar en form med namnet form1 -->
-            <fieldset>
-                <legend>Fråga oss</legend> <!-- Rubrik till formuläret -->
+            <form name="form1" class="form1" > <!-- Skapar en form med namnet form1 -->
+                <fieldset>
+                    <legend>Fråga oss</legend> <!-- Rubrik till formuläret -->
 
-                <label>E-post: <!-- Rubrik till input fältet epost -->
-                     <input type= "email" placeholder="for@example.com" name="epost" id="epost" autofocus="true" /> <!-- Skapar ett input fält -->
-                </label>
+                    <label>E-post: <!-- Rubrik till input fältet epost -->
+                         <input type= "email" placeholder="for@example.com" name="epost" id="epost" autofocus="true" /> <!-- Skapar ett input fält -->
+                    </label>
 
-                <label>Ämne <!-- Rubrik till input fältet epost -->
-                     <input type="text" name = "amne" placeholder="Ämne" id="amne" /> <!-- Skapar ett input fält -->
-                </label>
+                    <label>Ämne: <!-- Rubrik till input fältet epost -->
+                         <input type="text" name = "amne" placeholder="Ämne" id="amne" /> <!-- Skapar ett input fält -->
+                    </label>
 
-                <label> <!-- Rubrik till textarean Fraga -->
-                <textarea  name="fraga" rows="8" cols="65" placeholder="Fraga" id="fraga" ></textarea> <!-- Skapar en text area -->
-                </label>
+                    <label> <!-- Rubrik till textarean Fraga -->
+                    <textarea  name="fraga" rows="8" cols="65" placeholder="Fraga" id="fraga" ></textarea> <!-- Skapar en text area -->
+                    </label>
 
-           </fieldset>
-            <input type="button" value = " Submit " id="submit" class="buttonSubmit">  <!-- Skapar en knapp -->
-</form>
-
+               </fieldset>
+               <input type="button" value = " Submit " id="submit" class="buttonSubmit">  <!-- Skapar en knapp -->
+            </form>
 	    </div>
-
 	</body>
 </html>

@@ -1,0 +1,16 @@
+    @media screen and (orientation: portrait){ /*vertical kontrol*/
+        #contacts{ /*sätter braden till max*/
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 40.5em) and (orientation: landscape) { /*ligger på bredden och maxbred på 40.5em */
+        #contacts{ /* gör den bredare */
+            width: 85%;
+        }
+    }
+
+/*
+    Här sätter vi enbart storleken på contakst för att få det bra justerat beroende på om det är låg uplösning på breden eller om skärmen står upp vertikalt.
+    Denna css är beroende på data css:en då vi inte justerar hela sidan med mobila versionen
+*/
