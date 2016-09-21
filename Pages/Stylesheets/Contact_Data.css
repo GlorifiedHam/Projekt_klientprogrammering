@@ -12,10 +12,10 @@ padding:0.25em;
 
 textarea{
 resize: none;
-
 }
-legend{
 
+#submit{
+    width: 50%;
 	font-size:1.6em;
 }
 
