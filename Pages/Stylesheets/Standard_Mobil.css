@@ -5,17 +5,17 @@
         float: right;
     }
 
-
-     .nav li{
-
+    .nav li{
      	font-size:2em;
-     }
+    }
 
 }
 
-@media screen and (max-width: 40.5em) and (orientation: landscape) /* landskap läge för datorer med lägre uplösning och surfplattor och telefoner i detta läge */
+@media screen and (max-width: 40.5em) and (orientation: landscape) /* landskap läge för datorer med lägre uplösning på breden och surfplattor och telefoner i detta läge */
 {
     #logo{
 	    width: 40%;
     }
 }
+
+/* generelt va som händer är att vi ändrar logan i standarden och storleken på knapparna till vår huvud meny på hemsidan */

@@ -1,12 +1,15 @@
+
+/* här sätter vi cssen på generela saker så som navigeringsmenyn som vi använder på alla delar av hemsiadan*/
+
 body{
 	background-color:#ffffff;
 }
-
 
 h1, p{
   font-family: "Times New Roman", Times, serif;
 }
 
+/* här sätter man värdena på navigeringsmenyn med margins och storlek*/
  .nav ul {
     list-style-type: none;
     margin-top: -0.25em; 
@@ -36,6 +39,7 @@ h1, p{
     text-decoration: none;
 }
 
+/*Hover functions som sätter mörkare färg på knapparna när man drar musen över dom eller trycker på dom med fingrarna*/
 .nav li a:hover:not(.active) {
     background-color: #111;
 }
@@ -44,6 +48,7 @@ h1, p{
     background-color: #4CAF50;
 }
 
+/* vtext är våran standrad div för text med olika delar på strötexten och rubriker */
 .vText{
 	height: 50%;
 	width: 100%;
@@ -52,7 +57,7 @@ h1, p{
 	margin-top: -0.25em;
 	margin-right: 0.25em;
 	margin-left:-0.25em;
-	margin-bottom:none;
+	margin-bottom: none;
 	padding-top: 0.5em;
 }
 
@@ -64,7 +69,8 @@ h1, p{
     font-size:250%;
 }
 
-#logo{ /*ändrar logan till rätt storlek på datorer och defult värde */
+/*ändrar logan till rätt storlek på datorer och defult värde */
+#logo{
 	width: 20%;
     float: left;
 }

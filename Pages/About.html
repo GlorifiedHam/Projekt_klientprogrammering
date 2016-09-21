@@ -5,19 +5,17 @@
         Projekt_klientprogrammering-About
         </Title>
         
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8" /> <!-- utf8 formater läggs in -->
         
-
         <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css"> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\About_Data.css"> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" /> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\About_Mobile.css"> <!-- Laddar ett Stylesheet -->
  
-        <script src="Jquery/jquery-3.1.0.js"></script> <!-- Laddar i JQuery -->
+        <script src="Jquery/jquery-3.1.0.js"></script> <!-- Laddar i JQuery från lokal fil -->
 
         <script type="text/javascript" src="Jquery/jquery.maphilight.min.js"></script> <!-- Laddar in pluginet maphighlight  -->
         <script src="Script/aboutJavaScript.js"></script> <!-- Laddar in javascript -->
-       
 
     </head>
 
@@ -33,23 +31,23 @@
             </ul>
         </div>
 
-        <!--
-        lite random text div som visas utåt om företaget.
-        //-->
-         <div = class="vText">
-        
+         <!-- lite random text div som visas utåt om företaget. -->
+         <div class="vText">
+             <!-- lite random strö text-->
             <h1>Om oss</h1> <!-- Rubrik -->
             <p>Vi älskar att göra och publicera spel</p> <!-- Paragraf -->
             <p>Företaget startades 1980 med syftet att skapa roliga spel med hög kvalitet </p>
             <p>Vi är ett gäng på 20 personer sliter dag in och dag ut för att förse dig med spel av hög kvalitet</p>
             <figure id="figure">
+            <!-- våran världskarta från en lokal bild -->
             <img src="Bilder/world-map.jpg " alt="Map" usemap="#world" class="foo" /> <!-- lägger till en bild med usemap som tag för att indikera att det är en karta -->
                 <figcaption  >
                     Tryck på ett land där vi har ett kontor
                 </figcaption>
             </figure>
 
-            <map name="world" id="norden"> <!-- Tag för att indikera att de är en karta -->
+            <!-- här har vi våran map function som som sätter ut värden på våran världskarta -->
+            <map name="world" id="norden">  <!-- Tag för att indikera att de är en karta -->
                    <area shape="poly" coords="275,10,275,42,286,42,289,13" class="Svergie" href="#Sverige" alt="#Sverige" /> <!--  Lägger till en klickbar zone i kartan-->
 
                    <area shape="poly" coords="114,44,115,61,141,61,142,48" class="Toronto" href="#Toronto" alt="#Toronto" /> <!--  Lägger till en klickbar zone i kartan-->
@@ -68,10 +66,10 @@
             <div id="lankKontor">
                  <a href="#" class="kontor"> Se alla kontor </a>
             </div>
-            <div id="output"> <!-- I denna kommer listan på alla företagets kontor läggas-- >
+            <div id="output"> <!-- I denna kommer listan på alla företagets kontor läggas -->
                  <h1> Lista över all kontor </h1>
-
             </div>
+        </div>
             
     </body>
 </html>

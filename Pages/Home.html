@@ -9,7 +9,7 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
 		Projekt_klientprogrammering-Home
 		</Title>
 		
-		<meta charset="UTF-8" />
+		<meta charset="UTF-8" /> <!-- utf8 formater läggs in -->
 		<!--
 			css inladning med en version för dator, en för mobil och en standard.
 			standarden är en som ska vara samma på alla delar av sidan
@@ -19,12 +19,12 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
             vi har så att vi lägger mobil versionen efter dator versionen så att den
             skriver över med den mobila versionen och med samma metod med standard
             och den specifika css för den delen av hemsidan
-		//-->
+		-->
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Data.css" /> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\Standard_Mobil.css" /> <!-- Laddar ett Stylesheet -->
 		<link rel="stylesheet" type="text/css" href="Stylesheets\Home_Data.css" /> <!-- Laddar ett Stylesheet -->
         <link rel="stylesheet" type="text/css" href="Stylesheets\Home_Mobil.css" /> <!-- Laddar ett Stylesheet -->
-		<script src="Jquery/jquery-3.1.0.min.js"></script> <!-- Laddar i JQuery -->
+		<script src="Jquery/jquery-3.1.0.min.js"></script> <!-- Laddar i JQuery från lokal fil -->
         <script type="text/javascript" src="Script/homeJavaScript.js"></script> <!-- Laddar i Javascripten -->
 
 	</head>
@@ -34,7 +34,7 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
 		navigerings meny att hoppa mellan olika delar av hemsidan
 		//-->
         <img id="logo" src="bilder\logo.png">
-		<div class="nav">
+		<div class="nav"> <!-- Navigeringsmenyn -->
 			<ul>
 				<li><a href="Home.html">Hem</a></li>
 				<li><a href="Contact.html">Kontakta</a></li>
@@ -62,15 +62,6 @@ den här html filen är startfilen eller hem html filen för hemsidan som vi utg
         <div class="imgGallery" > <!-- vårat bildspel i en div -->
             <!-- <input onclick="displayImage();" type=button value="Display Random Image"> -->
             <img class="imgallery" src="Bilder/covers.png" name="canvas">
-        </div>
-
-        <!--<div id="slides">
-            <img src="Bilder/covers.png">
-            <img src="Bilder/kontor-3.png">
-            <img src="Bilder/holmes_front_big.png">
-            <img src="Bilder/kontor-1.png">
-            <img src="Bilder/kontor-2.png">
-         //-->
         </div>
 	</body>
 </html>
