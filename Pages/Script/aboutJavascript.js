@@ -1,5 +1,23 @@
 $(document).ready(function() {
      $('.foo').maphilight();
+
+
+
+var $kontorDiv = $("#output");
+$kontorDiv.hide();
+$('a.kontor').click(function(event){
+event.preventDefault();
+if($kontorDiv.is(':hidden')){
+$kontorDiv.fadeIn('slow');
+$(this).text('Se mindre');
+}else{
+$kontorDiv.fadeOut('slow');
+$(this).text('Se alla kontor');
+}
+});
+
+
+
     
         //lista med kontoren som black eagle games har. tar ut med getjson kod
     $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',function (data) {
@@ -33,7 +51,7 @@ $(document).ready(function() {
             //och stoppar in det i en divtag som nu heter mapAnswer
 
                 if (data.status == 1) { // Lyckades att hämta enskilt kontor
-                    $('#mapAnswer').append(
+                    $('#mapAnswer').empty().append(
                         'Stad: ' + data.result.name + ' Address: ' +data.result.address +' Phone: ' +data.result.phone +'</br>' 
                     )
             }
@@ -67,7 +85,7 @@ $(document).ready(function() {
 
             if (data.status == 1) { // Lyckades att hämta enskilt kontor
 
-                    $('#mapAnswer').append(
+                    $('#mapAnswer').empty().append(
                         'Stad: ' + data.result.name + ' Address: ' +data.result.address +' Phone: ' +data.result.phone +'</br>' 
                     )
             }
@@ -85,7 +103,7 @@ $(document).ready(function() {
 
             if (data.status == 1) { // Lyckades att hämta enskilt kontor
 
-                    $('#mapAnswer').append(
+                    $('#mapAnswer').empty().append(
                         'Stad: ' + data.result.name + ' Address: ' +data.result.address +' Phone: ' +data.result.phone +'</br>' 
                     )
             }
@@ -102,7 +120,7 @@ $(document).ready(function() {
         $.getJSON('http://ofcourse.oru.se/~IK2009/json/get_office.php',{city:'sheffield'},function (data) {
 
             if (data.status == 1) { // Lyckades att hämta enskilt kontor
-                    $('#mapAnswer').append(
+                    $('#mapAnswer').empty().append(
                         'Stad: ' + data.result.name + ' Address: ' +data.result.address +' Phone: ' +data.result.phone +'</br>' 
                     )
             }
@@ -119,7 +137,7 @@ $(document).ready(function() {
             if (data.status == 1) { // Lyckades att hämta
             for (var prop in data.result) {
                if( data.result.hasOwnProperty( prop ) ) {
-                  $('#mapAnswer').append( 'Tyv&auml;rr finns det inga kontor h&auml;r, men bes&ouml;k g&auml;rna: '+ '<br />' + 'Land: ' + data.result[prop].name + 
+                  $('#mapAnswer').empty().append( 'Tyv&auml;rr finns det inga kontor h&auml;r, men bes&ouml;k g&auml;rna: '+ '<br />' + 'Land: ' + data.result[prop].name + 
                          'Address: ' + data.result[prop].address + 'Phone: ' + data.result[prop].phone +'<br />'
                   ) 
                }
