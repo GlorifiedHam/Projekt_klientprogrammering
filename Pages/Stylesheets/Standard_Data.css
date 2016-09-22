@@ -12,13 +12,13 @@ h1, p{
 /* här sätter man värdena på navigeringsmenyn med margins och storlek */
  .nav ul {
     list-style-type: none;
-    margin-top: -0.25em; 
+    margin-top: -0.25em;  /* sätter magrins manuelt då man använder lite olika värden och för att ha kontroll åt alla håll */
     margin-left: -0.25em;
     margin-right: 0.25em;
     margin-bottom: 0.25em;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    overflow: hidden; /* Gömmer överflöd */
+    background-color: #333; /* Sätter bakgrundsfärg*/
     width: 100%;
 }
 
@@ -37,7 +37,7 @@ h1, p{
 .nav li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: center; /* centrerar själva text länkarna */
     padding: 0.85em 1em;
     text-decoration: none;
 }
@@ -47,27 +47,25 @@ h1, p{
     background-color: #111;
 }
 
-.active {
-    background-color: #4CAF50;
-}
-
 /* vtext är våran standrad div för text med olika delar på strötexten och rubriker */
 .vText{
-	height: 50%;
+	height: 50%; /* sätter storleken på höjd och bred */
 	width: 100%;
-	text-align:center;
+	text-align: center; /* centrerar texten i vår standard text div */
 	display: inline-block;
-	margin-top: -0.25em;
+	margin-top: -0.25em; /* sätter margins manuelt åt alla håll separat för att kontroll åt alla håll */
 	margin-right: 0.25em;
 	margin-left:-0.25em;
 	margin-bottom: 0em;
 	padding-top: 0.5em;
 }
 
+/* Sätter storleken på strötexten */
 .vText p{
 	font-size: 150%;
 }
 
+/* Sätter storleken på rubriken */
 .vText h1{
     font-size:250%;
 }
