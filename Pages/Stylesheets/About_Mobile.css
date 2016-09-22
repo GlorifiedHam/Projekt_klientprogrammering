@@ -1,38 +1,30 @@
 @media screen and (orientation: portrait){ /* Sätter värden beroende skärmen står vertikalt */
 
-    #mapAnswer{
+    #mapAnswer{ /* Här så sätter vi bredden till max på diven där vi får ut svaret på kontor väljaren för att få det bra på telefoner */
         width: 100%;
     }
 
-    #figure{
+    #figure{ /* Här så sätter vi bredden till max på bildspelet för att få det bra på telefoner */
         width: 100%;
     }
 
-    #output p{
-
-    font-size: 1.5em;
-
-    }
-      .output {
-
-    background-color:red; 
-
-    }
-
-    .kontor{
-
-        font-size: 1.5em;
+    #textland{ /* Ändrar text storlek med em */
+        font-size: 2em;
     }
 
 }
 
 @media screen and (max-width: 40.5em) and (orientation: landscape) { /* Sätter värden beroende på uplösningen på breden och att skärmen liger horisontelt */
-    #mapAnswer{
+    #mapAnswer{ /* Här så sätter vi bredden till 85% på diven där vi får ut svaret på kontor väljaren för att få det bra på telefoner och surfplattor */
         width: 85%;
     }
 
-    #figure{
+    #figure{ /* Här så sätter vi bredden till 85% på bildspelet för att få det bra på telefoner surfplattor */
         width: 85%;
+    }
+
+    #textland{ /* Ändrar text storlek med em */
+        font-size: 1.5em;
     }
 }
 

@@ -1,27 +1,21 @@
 
-#output {
-
-}
-
-.foo{ /* hÃ¤r Ã¤r delen som sÃ¤tter scrollbars pÃ¥ kartan nÃ¤r den blir fÃ¶r liten */
+.foo{ /* här är delen som sätter scrollbars på kartan när den blir för liten */
     margin: auto;
 }
-
-
 
 #figure{ /* här är delen som sätter storleken runt den klickbara kartan */
-
     margin: auto;
-    overflow: auto;
+    overflow: auto; /* sätt centrerade värde på margin så bildspelet blir centrerat */
     width: 70%;
 }
 
-#mapAnswer{ /* här sätter vi värdena på diven där vi lägger våra svar vi får av att klicka på kartorna me centrering av texten och centrering av diven med margin */
+#mapAnswer{ /* här sätter vi värdena på diven där vi lägger våra svar vi får av att klicka på kartorna med centrering av diven med margin */
     width: 50%;
     height: 4em;
-    margin: auto;
-    text-align: center;
 }
 
-
 /* sätter atandard värden på dena del av hemsidan*/
+
+#textland{ /* id på figurcaption för att ändra texten */
+    font-size: 1em; /* Ändrar text storlek med em (standardvärde)*/
+}
