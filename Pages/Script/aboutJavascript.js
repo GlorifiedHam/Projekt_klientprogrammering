@@ -1,5 +1,5 @@
 $(document).ready(function() {
-     $('.foo').maphilight();
+     $('.map1').maphilight();
 
 
 
